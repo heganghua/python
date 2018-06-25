@@ -2,7 +2,7 @@
 
 ## 获取 http://www.quanshuwang.com 的小说
 
-	上面的文档
+	上面的文档 novat
 	
 	
 ## 点断续传<br/>
