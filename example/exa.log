@@ -1,0 +1,276 @@
+2018-06-27 11:24:37 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: example)
+2018-06-27 11:24:37 [scrapy.utils.log] INFO: Versions: lxml 4.1.0.0, libxml2 2.9.4, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct 15 2017, 03:27:45) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.2.0 (OpenSSL 1.0.2l  25 May 2017), cryptography 2.0.3, Platform Windows-7-6.1.7601-SP1
+2018-06-27 11:24:37 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'example', 'LOG_ENCODING': 'UTF-8', 'LOG_FILE': 'exa.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'example.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['example.spiders']}
+2018-06-27 11:24:37 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-06-27 11:24:37 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-06-27 11:24:37 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-06-27 11:24:37 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-06-27 11:24:37 [scrapy.core.engine] INFO: Spider opened
+2018-06-27 11:24:37 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-06-27 11:24:38 [root] WARNING: 125.121.173.112:46890
+
+
+2018-06-27 11:24:38 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-06-27 11:24:38 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 503,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 1041,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/403': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 6, 27, 3, 24, 38, 8000),
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2018, 6, 27, 3, 24, 37, 684000)}
+2018-06-27 11:24:38 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-06-27 16:30:33 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: example)
+2018-06-27 16:30:33 [scrapy.utils.log] INFO: Versions: lxml 4.1.0.0, libxml2 2.9.4, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct 15 2017, 03:27:45) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.2.0 (OpenSSL 1.0.2l  25 May 2017), cryptography 2.0.3, Platform Windows-7-6.1.7601-SP1
+2018-06-27 16:30:33 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'example', 'LOG_ENCODING': 'UTF-8', 'LOG_FILE': 'exa.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'example.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['example.spiders']}
+2018-06-27 16:30:34 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-06-27 16:30:34 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-06-27 16:30:34 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-06-27 16:30:34 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-06-27 16:30:34 [scrapy.core.engine] INFO: Spider opened
+2018-06-27 16:30:34 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-06-27 16:30:34 [scrapy.downloadermiddlewares.robotstxt] ERROR: Error downloading <GET file:///robots.txt>: [Errno 2] No such file or directory: '\\robots.txt'
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 150, in maybeDeferred
+    result = f(*args, **kw)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\scrapy\core\downloader\handlers\file.py", line 13, in download_request
+    with open(filepath, 'rb') as fo:
+FileNotFoundError: [Errno 2] No such file or directory: '\\robots.txt'
+2018-06-27 16:30:34 [scrapy.core.scraper] ERROR: Spider error processing <GET file:///E:/%E9%87%8D%E8%A6%81%E6%96%87%E4%BB%B6%EF%BC%8C%E8%AF%B7%E5%88%AB%E4%B9%B1%E5%8A%A8/%E4%B8%AD%E8%81%94%E6%B3%B5%E8%BD%A6%E9%85%8D%E7%BD%AE%E9%9B%B6%E4%BB%B6%E5%9B%BE%E5%86%8C/HBT80.18.160SU.pdf> (referer: None)
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "F:\Github\python\example\example\spiders\exa.py", line 12, in parse
+    print(response.content)
+AttributeError: 'Response' object has no attribute 'content'
+2018-06-27 16:30:34 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-06-27 16:30:34 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 3,
+ 'downloader/exception_type_count/builtins.FileNotFoundError': 3,
+ 'downloader/request_bytes': 1020,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 13327076,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 6, 27, 8, 30, 34, 956200),
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'retry/count': 2,
+ 'retry/max_reached': 1,
+ 'retry/reason_count/builtins.FileNotFoundError': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/AttributeError': 1,
+ 'start_time': datetime.datetime(2018, 6, 27, 8, 30, 34, 595200)}
+2018-06-27 16:30:34 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-06-27 16:32:35 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: example)
+2018-06-27 16:32:35 [scrapy.utils.log] INFO: Versions: lxml 4.1.0.0, libxml2 2.9.4, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct 15 2017, 03:27:45) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.2.0 (OpenSSL 1.0.2l  25 May 2017), cryptography 2.0.3, Platform Windows-7-6.1.7601-SP1
+2018-06-27 16:32:35 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'example', 'LOG_ENCODING': 'UTF-8', 'LOG_FILE': 'exa.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'example.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['example.spiders']}
+2018-06-27 16:32:35 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-06-27 16:32:36 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-06-27 16:32:36 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-06-27 16:32:36 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-06-27 16:32:36 [scrapy.core.engine] INFO: Spider opened
+2018-06-27 16:32:36 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-06-27 16:32:36 [scrapy.downloadermiddlewares.robotstxt] ERROR: Error downloading <GET f:/robots.txt>: Unsupported URL scheme 'f': no handler available for that scheme
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\twisted\python\failure.py", line 408, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "D:\ProgramData\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 45, in mustbe_deferred
+    result = f(*args, **kw)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\scrapy\core\downloader\handlers\__init__.py", line 64, in download_request
+    (scheme, self._notconfigured[scheme]))
+scrapy.exceptions.NotSupported: Unsupported URL scheme 'f': no handler available for that scheme
+2018-06-27 16:32:36 [scrapy.core.scraper] ERROR: Error downloading <GET f:/HBT50.13.90SX.pdf>
+scrapy.exceptions.NotSupported: Unsupported URL scheme 'f': no handler available for that scheme
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\twisted\python\failure.py", line 408, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "D:\ProgramData\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 45, in mustbe_deferred
+    result = f(*args, **kw)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\scrapy\core\downloader\handlers\__init__.py", line 64, in download_request
+    (scheme, self._notconfigured[scheme]))
+scrapy.exceptions.NotSupported: Unsupported URL scheme 'f': no handler available for that scheme
+2018-06-27 16:32:36 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-06-27 16:32:36 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 2,
+ 'downloader/exception_type_count/scrapy.exceptions.NotSupported': 2,
+ 'downloader/request_bytes': 425,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 6, 27, 8, 32, 36, 964200),
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 7,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2018, 6, 27, 8, 32, 36, 533200)}
+2018-06-27 16:32:36 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-06-27 16:33:37 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: example)
+2018-06-27 16:33:37 [scrapy.utils.log] INFO: Versions: lxml 4.1.0.0, libxml2 2.9.4, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct 15 2017, 03:27:45) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.2.0 (OpenSSL 1.0.2l  25 May 2017), cryptography 2.0.3, Platform Windows-7-6.1.7601-SP1
+2018-06-27 16:33:37 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'example', 'LOG_ENCODING': 'UTF-8', 'LOG_FILE': 'exa.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'example.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['example.spiders']}
+2018-06-27 16:33:37 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-06-27 16:33:37 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-06-27 16:33:37 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-06-27 16:33:37 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-06-27 16:33:37 [scrapy.core.engine] INFO: Spider opened
+2018-06-27 16:33:37 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-06-27 16:33:38 [scrapy.downloadermiddlewares.robotstxt] ERROR: Error downloading <GET f:/robots.txt>: Unsupported URL scheme 'f': no handler available for that scheme
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\twisted\python\failure.py", line 408, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "D:\ProgramData\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 45, in mustbe_deferred
+    result = f(*args, **kw)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\scrapy\core\downloader\handlers\__init__.py", line 64, in download_request
+    (scheme, self._notconfigured[scheme]))
+scrapy.exceptions.NotSupported: Unsupported URL scheme 'f': no handler available for that scheme
+2018-06-27 16:33:38 [scrapy.core.scraper] ERROR: Error downloading <GET f:%5CHBT50.13.90SX.pdf>
+scrapy.exceptions.NotSupported: Unsupported URL scheme 'f': no handler available for that scheme
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\twisted\python\failure.py", line 408, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "D:\ProgramData\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 45, in mustbe_deferred
+    result = f(*args, **kw)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\scrapy\core\downloader\handlers\__init__.py", line 64, in download_request
+    (scheme, self._notconfigured[scheme]))
+scrapy.exceptions.NotSupported: Unsupported URL scheme 'f': no handler available for that scheme
+2018-06-27 16:33:38 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-06-27 16:33:38 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 2,
+ 'downloader/exception_type_count/scrapy.exceptions.NotSupported': 2,
+ 'downloader/request_bytes': 427,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 6, 27, 8, 33, 38, 334200),
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 7,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2018, 6, 27, 8, 33, 37, 920200)}
+2018-06-27 16:33:38 [scrapy.core.engine] INFO: Spider closed (finished)
