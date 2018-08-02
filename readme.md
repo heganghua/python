@@ -10,3 +10,8 @@
 	启动爬虫：  scrapy crawl somespider -s JOBDIR=crawls/somespider-1
 	暂停： ctrl + c <br/>
 	重新启动爬虫： scrapy crawl somespider -s JOBDIR=crawls/somespider-1
+%%c12×2－1900
+
+
+获取以空格分隔的 倒数第一个值
+=TRIM(RIGHT(SUBSTITUTE(H2," ",REPT(" ",99)),99))
